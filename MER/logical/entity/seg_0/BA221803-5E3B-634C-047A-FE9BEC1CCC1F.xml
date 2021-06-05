@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA221803-5E3B-634C-047A-FE9BEC1CCC1F" name="EC_Subasta">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA221803-5E3B-634C-047A-FE9BEC1CCC1F" name="EC_Subasta_Objeto">
 <createdBy>Personal</createdBy>
 <createdTime>2021-05-27 16:41:44 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -68,6 +68,44 @@
 <Attribute name="Ask" id="F0DCC657-ACE7-44BA-9A4C-A8666274A046">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 20:21:11 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio_final" id="3DB8D222-4922-D301-CEFD-E76E57BE61B1">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 21:28:27 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vendido" id="1DD94A7A-5A3D-3272-BC37-69D4F3DB84DA">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 21:28:41 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Orden" id="E7513E3B-20A6-465C-631E-7FCEF1CB00E3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 21:25:53 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>

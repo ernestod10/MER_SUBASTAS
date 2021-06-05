@@ -27,21 +27,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_coleccionista" id="94D75D0A-FA67-8AFA-0553-C474D64FF4B5">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-05 18:48:40 UTC</createdTime>
-<generatorID>FF084C3F-01EB-D4D0-98AA-53379DB17926</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>2481A6F1-B0DA-081C-601C-346F6AE12322</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C47FB93D-6FA1-9071-8040-2038A3B745B7" name="EC_Objeto PK">

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FE74235-3F09-9D33-F62A-322314EB5B1A" name="EC_Coleccionista">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="561D6E6B-87A6-F5CA-226C-3F835BDD2DCA" name="EC_Catalogo_Objeto">
 <createdBy>Personal</createdBy>
-<createdTime>2021-05-27 03:37:21 UTC</createdTime>
+<createdTime>2021-06-05 21:37:48 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
@@ -15,27 +15,29 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_coleccionista" id="2481A6F1-B0DA-081C-601C-346F6AE12322">
+<Attribute name="ID_Objeto" id="B9E96EBB-55CC-808E-7D7A-AB93221E1A91">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 17:52:07 UTC</createdTime>
+<createdTime>2021-06-05 21:38:35 UTC</createdTime>
+<generatorID>1EDACA0E-AAC4-9568-42EC-615C8F80668C</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
+<referedAttribute>E6CEA0A2-F252-3C87-4C21-12076B380F32</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Lugar" id="0B79AEFD-AD14-987F-AA77-63122A5D8E82">
+<Attribute name="ID_organizador" id="67653B00-BC6C-1742-A258-2B84FCE45545">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 19:59:35 UTC</createdTime>
-<generatorID>C7C731B4-F1E5-30BE-F502-CFB9F326EB79</generatorID>
+<createdTime>2021-06-05 21:38:41 UTC</createdTime>
+<generatorID>D6BA8EBA-69D0-3E38-AD33-0AA90A2E7313</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>5727E5D7-96AA-8501-3466-DDB8CAA67CF8</referedAttribute>
+<referedAttribute>189491E9-0116-2A9B-0D50-4BA9A6E85800</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -43,16 +45,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B8736594-563E-3A3B-3293-0CC32C4B6DBE" name="EC_Coleccionista PK">
+<identifier id="8FD49008-C2AC-AEB6-FDAF-307BD085DDF6" name="EC_Catalogo_Objeto PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 18:48:40 UTC</createdTime>
+<createdTime>2021-06-05 21:38:35 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2481A6F1-B0DA-081C-601C-346F6AE12322</attributeRef>
+<attributeRef>B9E96EBB-55CC-808E-7D7A-AB93221E1A91</attributeRef>
+<attributeRef>67653B00-BC6C-1742-A258-2B84FCE45545</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha_evento" id="EAEE5754-A59B-5162-BB6B-99AF2B9D7CCC">
+<Attribute name="Fecha_Inicio" id="EAEE5754-A59B-5162-BB6B-99AF2B9D7CCC">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 19:53:52 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -63,6 +63,43 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>5727E5D7-96AA-8501-3466-DDB8CAA67CF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estatus" id="5972E4C0-4EBC-1C23-E3FC-593C8334CE8E">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 21:27:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costo_inscripcion_Clientes" id="08A26061-06E8-1C49-D2DE-D7604E54E141">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 21:30:28 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costo_Inscripcion" id="0F94670F-B25E-395C-924E-4EB7D8AC52B0">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 21:30:45 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
