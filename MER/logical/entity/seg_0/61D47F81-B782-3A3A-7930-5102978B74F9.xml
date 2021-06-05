@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61D47F81-B782-3A3A-7930-5102978B74F9" name="EC_Cliente_Subasta">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 19:53:13 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Cliente" id="59D9C0B9-204E-E0EC-ADCE-30E1EC97D850">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 19:53:35 UTC</createdTime>
+<generatorID>FA0C19FA-53A8-F363-E336-0B7E4297F5E3</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>D7BDBFAB-40F9-3EDB-725D-6BDD9133EA41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_coleccionista" id="A1AF21FD-2569-103B-7055-086C17B05EC7">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 19:53:35 UTC</createdTime>
+<generatorID>FA0C19FA-53A8-F363-E336-0B7E4297F5E3</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>BFB75881-5426-727C-68AE-0502DECAF184</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_evento" id="795392D8-DD59-B6BE-6D93-6169DF8B9DAA">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 20:04:48 UTC</createdTime>
+<generatorID>7C50DA7A-406E-134B-0B52-F4381E15484A</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>45FD39D5-4662-5AD9-9D85-29889812F8B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Objeto" id="10CE89D7-615E-6D10-5C83-A5B176ECDE77">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 20:15:10 UTC</createdTime>
+<generatorID>7C50DA7A-406E-134B-0B52-F4381E15484A</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>E9680E19-4F8E-707D-9446-847658B95FC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94E5883E-953E-5F79-FA89-3D4286C33BFC" name="EC_Cliente_Subasta PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 19:53:35 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59D9C0B9-204E-E0EC-ADCE-30E1EC97D850</attributeRef>
+<attributeRef>A1AF21FD-2569-103B-7055-086C17B05EC7</attributeRef>
+<attributeRef>795392D8-DD59-B6BE-6D93-6169DF8B9DAA</attributeRef>
+<attributeRef>10CE89D7-615E-6D10-5C83-A5B176ECDE77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE273288-3172-076C-B80A-1974AA0ECE1A" name="EC_Evento">
+<createdBy>Personal</createdBy>
+<createdTime>2021-05-27 02:59:34 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_evento" id="D362F546-7F11-A9F3-8116-DA4C1359E4EB">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 18:46:58 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_organizador" id="81E593BD-D9D2-DF9C-B062-661F2A1D2AFA">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 17:51:23 UTC</createdTime>
+<generatorID>AF3CDB6C-0E63-BCAB-E064-B86667FF3989</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>189491E9-0116-2A9B-0D50-4BA9A6E85800</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_evento" id="EAEE5754-A59B-5162-BB6B-99AF2B9D7CCC">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 19:53:52 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Lugar" id="ECFFE8D2-2C6B-0558-4245-8D613102B683">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 19:56:29 UTC</createdTime>
+<generatorID>F0194948-8F9F-B767-32EA-695F97EEB7A1</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5727E5D7-96AA-8501-3466-DDB8CAA67CF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FD90ACE-1382-97FF-BAE1-DB5EAA5C29B5" name="EC_Evento PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 18:47:08 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D362F546-7F11-A9F3-8116-DA4C1359E4EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

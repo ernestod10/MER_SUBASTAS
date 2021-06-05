@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA221803-5E3B-634C-047A-FE9BEC1CCC1F" name="EC_Subasta">
+<createdBy>Personal</createdBy>
+<createdTime>2021-05-27 16:41:44 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_evento" id="45FD39D5-4662-5AD9-9D85-29889812F8B3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 18:47:08 UTC</createdTime>
+<generatorID>87392F95-48D6-4D43-E89E-8574E4462941</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>D362F546-7F11-A9F3-8116-DA4C1359E4EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Objeto" id="E9680E19-4F8E-707D-9446-847658B95FC9">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 19:51:44 UTC</createdTime>
+<generatorID>9D7DCD20-8F88-7A77-EE84-54EE33EE5716</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>E6CEA0A2-F252-3C87-4C21-12076B380F32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="A97BB29C-51F0-D5B4-9BE9-61A914468AF7">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 20:15:16 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bid" id="CBD26B81-8D33-D943-BF24-A3230311D595">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 20:21:03 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ask" id="F0DCC657-ACE7-44BA-9A4C-A8666274A046">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 20:21:11 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A14EAA9-A431-5CE7-55DA-8DF4E9BEC1CA" name="EC_Subasta PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-05 19:59:04 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45FD39D5-4662-5AD9-9D85-29889812F8B3</attributeRef>
+<attributeRef>E9680E19-4F8E-707D-9446-847658B95FC9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
