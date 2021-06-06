@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCDD250B-1790-7F41-1B54-AA3E6ABD0335" name="EC_C_O">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCDD250B-1790-7F41-1B54-AA3E6ABD0335" name="EC_Cliente">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 20:07:57 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -15,34 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Cliente" id="BCFF72BC-3B96-6E17-A1B5-4D5C2A354F82">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:08:11 UTC</createdTime>
-<generatorID>0B1FE84D-AB44-4B76-6F61-03F923C5DF53</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<referedAttribute>D7BDBFAB-40F9-3EDB-725D-6BDD9133EA41</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_coleccionista" id="71B61D05-22EB-C8FE-BAE9-FC8E3D8677D9">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:08:11 UTC</createdTime>
-<generatorID>0B1FE84D-AB44-4B76-6F61-03F923C5DF53</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<referedAttribute>BFB75881-5426-727C-68AE-0502DECAF184</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID_organizador" id="907D3BD4-E321-E935-8FC4-60A1E21E065C">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 20:08:18 UTC</createdTime>
@@ -57,6 +29,44 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_coleccionista" id="34B366AC-A54D-FD7C-E320-C031C1FB7518">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-06 02:50:16 UTC</createdTime>
+<generatorID>04FD7C9E-EC54-DD7E-F3AB-D384AE630642</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>2481A6F1-B0DA-081C-601C-346F6AE12322</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Cliente" id="983F67C9-4F99-2A6C-FDD4-BE8377DF23BD">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-06 02:50:39 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_inicio" id="B331A0BB-27AA-83B1-F441-07C715EAEDB2">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-06 02:50:51 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="370835A2-4F2F-BABD-3C01-8BC5809D39CC" name="EC_C_O PK">
@@ -68,9 +78,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BCFF72BC-3B96-6E17-A1B5-4D5C2A354F82</attributeRef>
-<attributeRef>71B61D05-22EB-C8FE-BAE9-FC8E3D8677D9</attributeRef>
 <attributeRef>907D3BD4-E321-E935-8FC4-60A1E21E065C</attributeRef>
+<attributeRef>34B366AC-A54D-FD7C-E320-C031C1FB7518</attributeRef>
+<attributeRef>983F67C9-4F99-2A6C-FDD4-BE8377DF23BD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

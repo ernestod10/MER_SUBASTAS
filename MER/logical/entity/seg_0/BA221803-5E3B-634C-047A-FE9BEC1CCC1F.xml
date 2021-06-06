@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Subasta" id="9576B129-77F1-C5F4-0206-D631AC2EC4E4">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-06 02:56:18 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ID_evento" id="45FD39D5-4662-5AD9-9D85-29889812F8B3">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 18:47:08 UTC</createdTime>
@@ -128,6 +140,7 @@
 <usedAttributes>
 <attributeRef>45FD39D5-4662-5AD9-9D85-29889812F8B3</attributeRef>
 <attributeRef>E9680E19-4F8E-707D-9446-847658B95FC9</attributeRef>
+<attributeRef>9576B129-77F1-C5F4-0206-D631AC2EC4E4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
