@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Objeto" id="E6CEA0A2-F252-3C87-4C21-12076B380F32">
+<Attribute name="NUR" id="E6CEA0A2-F252-3C87-4C21-12076B380F32">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 18:42:07 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>

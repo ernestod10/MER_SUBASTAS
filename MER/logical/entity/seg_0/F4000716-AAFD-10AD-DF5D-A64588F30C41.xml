@@ -16,18 +16,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NUR" id="76CF97A5-6527-8B8B-5717-35BE29BED285">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-05 18:36:55 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Denominacion" id="FFCEEEDD-3130-F17B-CE7F-4D84F58A1841">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 18:37:12 UTC</createdTime>

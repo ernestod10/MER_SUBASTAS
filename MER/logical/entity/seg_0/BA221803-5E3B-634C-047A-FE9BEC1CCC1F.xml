@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Objeto" id="E9680E19-4F8E-707D-9446-847658B95FC9">
+<Attribute name="NUR" id="E9680E19-4F8E-707D-9446-847658B95FC9">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 19:51:44 UTC</createdTime>
 <generatorID>9D7DCD20-8F88-7A77-EE84-54EE33EE5716</generatorID>

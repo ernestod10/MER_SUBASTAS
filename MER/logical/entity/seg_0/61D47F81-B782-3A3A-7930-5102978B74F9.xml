@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Objeto" id="10CE89D7-615E-6D10-5C83-A5B176ECDE77">
+<Attribute name="NUR" id="10CE89D7-615E-6D10-5C83-A5B176ECDE77">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 20:15:10 UTC</createdTime>
 <generatorID>7C50DA7A-406E-134B-0B52-F4381E15484A</generatorID>
