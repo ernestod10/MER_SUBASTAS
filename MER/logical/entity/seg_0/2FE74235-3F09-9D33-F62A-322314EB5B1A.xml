@@ -65,6 +65,18 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="fecha_Nacimiento" id="71214ADC-4A42-F3CE-1950-18757E833AED">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-06 18:32:19 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Nacionalidad" id="98F96D79-1053-3EF1-1999-386F22F1502B">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-06 02:58:15 UTC</createdTime>

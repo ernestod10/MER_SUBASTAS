@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="451FCF3F-6D8E-ACDD-53B4-22041730F67A" name="EC_Cliente_Evento">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="451FCF3F-6D8E-ACDD-53B4-22041730F67A" name="EC_Insc_Cliente_Evento">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-06 03:00:52 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -15,34 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_organizador" id="6E7F1646-4859-ADC6-17B1-1F6F0ACEBE65">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-06 03:01:39 UTC</createdTime>
-<generatorID>4ED180A5-1F64-1DD0-9E7C-CB8185B18062</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<referedAttribute>907D3BD4-E321-E935-8FC4-60A1E21E065C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_coleccionista" id="5E36940F-6E6F-87ED-907B-770E836F5893">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-06 03:01:39 UTC</createdTime>
-<generatorID>4ED180A5-1F64-1DD0-9E7C-CB8185B18062</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<referedAttribute>34B366AC-A54D-FD7C-E320-C031C1FB7518</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID_Cliente" id="741A0FB7-8DE7-66A7-8369-69619F48D5D6">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-06 03:01:39 UTC</createdTime>
@@ -82,8 +54,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6E7F1646-4859-ADC6-17B1-1F6F0ACEBE65</attributeRef>
-<attributeRef>5E36940F-6E6F-87ED-907B-770E836F5893</attributeRef>
 <attributeRef>741A0FB7-8DE7-66A7-8369-69619F48D5D6</attributeRef>
 <attributeRef>95C3574D-CFA5-E56A-6BFA-BF06EA6EC91D</attributeRef>
 </usedAttributes>
