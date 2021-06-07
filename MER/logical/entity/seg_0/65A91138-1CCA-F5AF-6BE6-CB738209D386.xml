@@ -68,6 +68,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Subasta" id="252F7E61-463D-10C2-A45D-DF362390259F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-07 00:50:12 UTC</createdTime>
+<generatorID>B81ED0F7-32D2-FC7E-FEA6-6FF5F4F14E55</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>9576B129-77F1-C5F4-0206-D631AC2EC4E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="52473930-2843-6CB7-51B1-F61A13C81BD3" name="Historico_coleccionista_objeto PK">
@@ -81,7 +95,7 @@
 <usedAttributes>
 <attributeRef>B57E2979-869C-2BA4-1B16-70837801B5A3</attributeRef>
 <attributeRef>A53EFFA6-EF76-B412-41C0-603F9AC638FB</attributeRef>
-<attributeRef>5A7D1957-165D-BEC7-F2CC-11032961944D</attributeRef>
+<attributeRef>252F7E61-463D-10C2-A45D-DF362390259F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
