@@ -65,6 +65,18 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Apellido2" id="2E98A6B8-2455-A96C-0D7D-4192B4E1C036">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 03:16:03 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="fecha_Nacimiento" id="71214ADC-4A42-F3CE-1950-18757E833AED">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-06 18:32:19 UTC</createdTime>

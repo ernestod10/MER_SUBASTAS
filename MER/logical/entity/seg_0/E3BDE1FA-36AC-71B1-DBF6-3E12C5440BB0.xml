@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61D47F81-B782-3A3A-7930-5102978B74F9" name="EC_Cliente_Subasta">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3BDE1FA-36AC-71B1-DBF6-3E12C5440BB0" name="EC_Artista">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 19:53:13 UTC</createdTime>
+<createdTime>2021-07-14 03:18:51 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Oferta" id="3BBE7042-7B61-B816-BBA3-A84C4D82A7FB">
+<Attribute name="Id_artista" id="DF59931B-D9BF-41DC-E27D-0AC4EADA2A67">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 21:22:48 UTC</createdTime>
+<createdTime>2021-07-14 07:01:44 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
@@ -27,58 +27,56 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ganador" id="F5B00020-7DCE-018E-12E3-C36E8AA6BC9E">
+<Attribute name="nombre" id="ADB17817-0B84-CF56-AEBB-B71E09B2B35A">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 02:41:18 UTC</createdTime>
+<createdTime>2021-07-14 07:02:01 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_Cliente" id="E5FE4991-59A6-94ED-D933-F77EF4D0849A">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-06 02:50:50 UTC</createdTime>
-<generatorID>86FB63F6-7F35-4DF2-164E-2B0C7ADC73EE</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<referedAttribute>983F67C9-4F99-2A6C-FDD4-BE8377DF23BD</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Subasta" id="7AD88437-4156-0F6F-0FA1-CAEAB75923CE">
+<Attribute name="apellido" id="C07BD128-8DC7-BD3D-FBA3-A59CCE7451DC">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 02:56:28 UTC</createdTime>
-<generatorID>7C50DA7A-406E-134B-0B52-F4381E15484A</generatorID>
+<createdTime>2021-07-14 07:02:09 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>9576B129-77F1-C5F4-0206-D631AC2EC4E4</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_art" id="8F304286-B449-4375-49C3-CFEAF5B8E1E3">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:02:17 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="94E5883E-953E-5F79-FA89-3D4286C33BFC" name="EC_Cliente_Subasta PK">
+<identifier id="D507F565-0B69-64AB-7026-E4EF7D1223CE" name="EC_Artista PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 19:53:35 UTC</createdTime>
+<createdTime>2021-07-14 07:01:59 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7AD88437-4156-0F6F-0FA1-CAEAB75923CE</attributeRef>
-<attributeRef>E5FE4991-59A6-94ED-D933-F77EF4D0849A</attributeRef>
+<attributeRef>DF59931B-D9BF-41DC-E27D-0AC4EADA2A67</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -11,11 +11,46 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>044B47D7-307F-578B-778D-6127C20EA1C7</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_moneda" id="545F9E7D-5B81-9C55-2F58-842F5ABD4225">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 05:51:47 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C4A00AF0-3282-5336-AA74-922249F30A34">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 05:52:07 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mintaje" id="4F7D72D3-72C5-9144-9106-B0BC2E256862">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 05:52:15 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Denominacion" id="FFCEEEDD-3130-F17B-CE7F-4D84F58A1841">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 18:37:12 UTC</createdTime>
@@ -26,18 +61,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Divisa" id="768E4DE6-120A-3BB8-86DE-8F1897B7FE4F">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-05 18:37:44 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Forma" id="A0D3A317-1482-2EC0-9ABC-461336299341">
@@ -136,18 +159,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Artista" id="8842A86C-B831-5BB6-881B-A7F1CF026495">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-05 18:40:55 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Anverso" id="36D96BDE-EE6E-2B56-B844-070BCB621EDE">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 18:41:06 UTC</createdTime>
@@ -172,5 +183,47 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_Lugar" id="05F2FF2D-3AC3-E35A-8EC0-059272988CD4">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:36:30 UTC</createdTime>
+<generatorID>09F4F754-F355-2C6B-6CCD-EAD8C818D488</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>5727E5D7-96AA-8501-3466-DDB8CAA67CF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="3A74096C-DF40-63F7-C7B8-46C1326ED211">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:36:41 UTC</createdTime>
+<generatorID>6D7FCF55-CBA2-1A9C-E6B7-554F05DFD277</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>29D54194-0135-CA61-39D4-A4B5E08C8598</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A86F02DB-A366-C309-6BE6-1806A35585AF" name="EC_Catalogo_moneda PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 05:51:57 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>545F9E7D-5B81-9C55-2F58-842F5ABD4225</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

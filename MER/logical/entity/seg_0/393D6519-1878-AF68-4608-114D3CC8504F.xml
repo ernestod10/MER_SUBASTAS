@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="C206E551-B6FF-096A-6AD8-0768A41A220D">
+<Attribute name="Nombre_Pais" id="C206E551-B6FF-096A-6AD8-0768A41A220D">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 19:54:47 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -51,19 +51,16 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Lugar1" id="688ED4B0-A390-2F3E-DCEA-AE1B0152F6BF">
+<Attribute name="Nacionalidad" id="54A1DDCA-8F4F-6889-E763-FAEB4EF4CB00">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 19:55:24 UTC</createdTime>
-<generatorID>30EA3029-15F3-1644-2F3A-667FD93DA02E</generatorID>
+<createdTime>2021-07-14 07:09:25 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>5727E5D7-96AA-8501-3466-DDB8CAA67CF8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65A91138-1CCA-F5AF-6BE6-CB738209D386" name="EC_coleccionista_objeto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F923E0C1-9110-2090-EF9F-EB1990AA560E" name="EC_Factura">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:30:37 UTC</createdTime>
+<createdTime>2021-07-14 07:19:27 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
@@ -15,68 +15,79 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Fecha_Inicio" id="5A7D1957-165D-BEC7-F2CC-11032961944D">
+<Attribute name="Numero" id="4C7F5DA7-29FD-8961-C3FF-285DAF2D6FDE">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:31:23 UTC</createdTime>
+<createdTime>2021-07-14 07:19:41 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Fecha_fin" id="74DD9480-C8ED-0561-4AEC-3CFC08D76551">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:31:34 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NUR" id="B57E2979-869C-2BA4-1B16-70837801B5A3">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:31:50 UTC</createdTime>
-<generatorID>B77734F5-21A6-0156-0BA9-9D9958E1AD8D</generatorID>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<referedAttribute>E6CEA0A2-F252-3C87-4C21-12076B380F32</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_coleccionista" id="A53EFFA6-EF76-B412-41C0-603F9AC638FB">
+<Attribute name="Fecha" id="82581E8C-AB80-8DBE-E496-15DDE0BBF936">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:32:02 UTC</createdTime>
-<generatorID>53ACECC1-3D7A-361F-F110-873422585E68</generatorID>
+<createdTime>2021-07-14 07:19:48 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>2481A6F1-B0DA-081C-601C-346F6AE12322</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total" id="148478B0-FBD8-7445-650C-B425F18343FB">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:19:55 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Subasta" id="252F7E61-463D-10C2-A45D-DF362390259F">
+<Attribute name="ID_evento" id="C309D5EF-C9D1-19C3-15E5-F11EF06AAEE8">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-07 00:50:12 UTC</createdTime>
-<generatorID>B81ED0F7-32D2-FC7E-FEA6-6FF5F4F14E55</generatorID>
+<createdTime>2021-07-14 07:20:14 UTC</createdTime>
+<generatorID>A8ED5095-4708-F602-2F05-3128A041C16D</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>9576B129-77F1-C5F4-0206-D631AC2EC4E4</referedAttribute>
+<referedAttribute>95C3574D-CFA5-E56A-6BFA-BF06EA6EC91D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_organiacion" id="99742E79-7B3C-EC50-AE38-21246711190D">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:20:14 UTC</createdTime>
+<generatorID>A8ED5095-4708-F602-2F05-3128A041C16D</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>1C88F223-B7A3-CC65-BCCF-198A86096100</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_coleccionista" id="73DFC71C-5E2A-AC85-4C9D-9DFE46757E49">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:20:14 UTC</createdTime>
+<generatorID>A8ED5095-4708-F602-2F05-3128A041C16D</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>A52CEBF6-E45D-73A8-5429-2F4A25D8781F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -84,18 +95,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="52473930-2843-6CB7-51B1-F61A13C81BD3" name="Historico_coleccionista_objeto PK">
+<identifier id="0F24BC11-56A6-B1EA-299B-FC36CFCF99B2" name="EC_Factura PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:31:50 UTC</createdTime>
+<createdTime>2021-07-14 07:19:47 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B57E2979-869C-2BA4-1B16-70837801B5A3</attributeRef>
-<attributeRef>A53EFFA6-EF76-B412-41C0-603F9AC638FB</attributeRef>
-<attributeRef>252F7E61-463D-10C2-A45D-DF362390259F</attributeRef>
+<attributeRef>4C7F5DA7-29FD-8961-C3FF-285DAF2D6FDE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

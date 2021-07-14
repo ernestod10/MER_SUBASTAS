@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="451FCF3F-6D8E-ACDD-53B4-22041730F67A" name="EC_Insc_Cliente_Evento">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8D79738-1678-F376-3C08-3F39D4D466ED" name="EC_catalogo_monedas">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 03:00:52 UTC</createdTime>
+<createdTime>2021-07-14 07:07:18 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
@@ -15,43 +15,55 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_evento" id="95C3574D-CFA5-E56A-6BFA-BF06EA6EC91D">
+<Attribute name="NUR" id="3B613F43-8D5A-2603-5AEC-F1B5C85583CE">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 03:01:42 UTC</createdTime>
-<generatorID>DD0C91A1-3E22-9910-7D69-636333CE5404</generatorID>
+<createdTime>2021-07-14 07:07:36 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>D362F546-7F11-A9F3-8116-DA4C1359E4EB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_organiacion" id="1C88F223-B7A3-CC65-BCCF-198A86096100">
+<Attribute name="ID_moneda" id="FA1905B1-B628-53DC-0287-9E5768C1A853">
 <createdBy>Personal</createdBy>
-<createdTime>2021-07-14 05:50:56 UTC</createdTime>
-<generatorID>4ED180A5-1F64-1DD0-9E7C-CB8185B18062</generatorID>
+<createdTime>2021-07-14 07:07:53 UTC</createdTime>
+<generatorID>C4AE81CB-0FCD-D3E0-93FD-A369635655E3</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>907D3BD4-E321-E935-8FC4-60A1E21E065C</referedAttribute>
+<referedAttribute>545F9E7D-5B81-9C55-2F58-842F5ABD4225</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_coleccionista" id="A52CEBF6-E45D-73A8-5429-2F4A25D8781F">
+<Attribute name="ID_organiacion" id="DAD8B084-1059-8F49-4992-DA4EFF20E96D">
 <createdBy>Personal</createdBy>
-<createdTime>2021-07-14 05:50:59 UTC</createdTime>
-<generatorID>4ED180A5-1F64-1DD0-9E7C-CB8185B18062</generatorID>
+<createdTime>2021-07-14 07:08:22 UTC</createdTime>
+<generatorID>6CA67879-77EB-8AB5-A34C-D2AF9E66F7D0</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>34B366AC-A54D-FD7C-E320-C031C1FB7518</referedAttribute>
+<referedAttribute>189491E9-0116-2A9B-0D50-4BA9A6E85800</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_coleccionista" id="A0F3E37A-EF36-7E7B-FE13-4ADC2A8D74DE">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:08:26 UTC</createdTime>
+<generatorID>7D9740DF-847C-0AA3-7697-58964D3F5659</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>2481A6F1-B0DA-081C-601C-346F6AE12322</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -59,18 +71,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DF909689-4ECD-9592-E995-A380ECFDAA86" name="EC_Cliente_Evento PK">
+<identifier id="37F21C6C-20B6-3A04-B923-558B7465F8C8" name="EC_catalogo_monedas PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 03:01:39 UTC</createdTime>
+<createdTime>2021-07-14 07:07:43 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>95C3574D-CFA5-E56A-6BFA-BF06EA6EC91D</attributeRef>
-<attributeRef>1C88F223-B7A3-CC65-BCCF-198A86096100</attributeRef>
-<attributeRef>A52CEBF6-E45D-73A8-5429-2F4A25D8781F</attributeRef>
+<attributeRef>3B613F43-8D5A-2603-5AEC-F1B5C85583CE</attributeRef>
+<attributeRef>FA1905B1-B628-53DC-0287-9E5768C1A853</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

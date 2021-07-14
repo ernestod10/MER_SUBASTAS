@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_organizador" id="907D3BD4-E321-E935-8FC4-60A1E21E065C">
+<Attribute name="ID_organiacion" id="907D3BD4-E321-E935-8FC4-60A1E21E065C">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 20:08:18 UTC</createdTime>
 <generatorID>64C8CCF4-399B-1EB3-B263-D82239FEBCA6</generatorID>
@@ -78,7 +78,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>983F67C9-4F99-2A6C-FDD4-BE8377DF23BD</attributeRef>
+<attributeRef>907D3BD4-E321-E935-8FC4-60A1E21E065C</attributeRef>
+<attributeRef>34B366AC-A54D-FD7C-E320-C031C1FB7518</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

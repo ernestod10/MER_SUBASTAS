@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E12555A0-CC5B-2127-F5F9-059C8844E14B" name="EC_Evento_Organizador">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26476F6D-BCE3-D9B2-CB97-9CAAA1FC70C7" name="A_O">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 17:02:02 UTC</createdTime>
+<createdTime>2021-07-14 07:03:07 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
@@ -15,29 +15,29 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_organiacion" id="17BF83EF-61CF-FBCB-9BC5-CD1B42D6BDBC">
+<Attribute name="Id_artista" id="BFF333AF-EB55-1854-CCE7-4A1D7465CB56">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 17:02:25 UTC</createdTime>
-<generatorID>140B23E0-AE37-FA72-1EDA-1830F882D4F6</generatorID>
+<createdTime>2021-07-14 07:03:22 UTC</createdTime>
+<generatorID>9A8778E8-5719-A4F9-203C-22ABC0A673AE</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>189491E9-0116-2A9B-0D50-4BA9A6E85800</referedAttribute>
+<referedAttribute>DF59931B-D9BF-41DC-E27D-0AC4EADA2A67</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_evento" id="985C0247-7148-DB47-7A3A-CFCD697D238E">
+<Attribute name="NUR" id="DB2F6293-8CF1-DBCE-C4E8-00FEFA07E43D">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 17:02:28 UTC</createdTime>
-<generatorID>4F4FDE27-D369-CB24-8B67-289F39880F3A</generatorID>
+<createdTime>2021-07-14 07:03:26 UTC</createdTime>
+<generatorID>202B462E-5A43-BD62-5A0C-673974F9EDBE</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>D362F546-7F11-A9F3-8116-DA4C1359E4EB</referedAttribute>
+<referedAttribute>59A7BEE3-FFDA-BF22-43B0-CD40DD0EBC54</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -45,17 +45,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6DEC78BE-97C1-24E7-393F-35BB8410EBD1" name="EC_Evento_Organizador PK">
+<identifier id="7B525A0A-A5DF-7AA8-C97C-7FA0DEA53B24" name="A_O PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-06 17:02:25 UTC</createdTime>
+<createdTime>2021-07-14 07:03:22 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>17BF83EF-61CF-FBCB-9BC5-CD1B42D6BDBC</attributeRef>
-<attributeRef>985C0247-7148-DB47-7A3A-CFCD697D238E</attributeRef>
+<attributeRef>BFF333AF-EB55-1854-CCE7-4A1D7465CB56</attributeRef>
+<attributeRef>DB2F6293-8CF1-DBCE-C4E8-00FEFA07E43D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="561D6E6B-87A6-F5CA-226C-3F835BDD2DCA" name="EC_Catalogo_Objeto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0EAD245-F191-7832-6E69-C35D1824E1D8" name="Divisa">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 21:37:48 UTC</createdTime>
+<createdTime>2021-07-14 07:04:50 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
@@ -15,73 +15,56 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NUR" id="B9E96EBB-55CC-808E-7D7A-AB93221E1A91">
+<Attribute name="id" id="29D54194-0135-CA61-39D4-A4B5E08C8598">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 21:38:35 UTC</createdTime>
-<generatorID>1EDACA0E-AAC4-9568-42EC-615C8F80668C</generatorID>
+<createdTime>2021-07-14 07:04:54 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>E6CEA0A2-F252-3C87-4C21-12076B380F32</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_organizador" id="67653B00-BC6C-1742-A258-2B84FCE45545">
+<Attribute name="nombre" id="C82D7F73-DBFC-CCA1-7D36-999E8261C3C2">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 21:38:41 UTC</createdTime>
-<generatorID>D6BA8EBA-69D0-3E38-AD33-0AA90A2E7313</generatorID>
+<createdTime>2021-07-14 07:05:02 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
-<referedAttribute>189491E9-0116-2A9B-0D50-4BA9A6E85800</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Lugar" id="8BCEDDB5-224B-6400-99F8-DF654E8A4D5F">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:37:14 UTC</createdTime>
+<generatorID>060C0E58-797A-0C57-9B33-4D467ABF59EA</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>5727E5D7-96AA-8501-3466-DDB8CAA67CF8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_inicio" id="31189FFA-DAB3-1701-C4A8-C4A2D4849406">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-06 02:54:39 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_fin" id="2E6299D6-7045-B129-B786-1E3BD3B65A2C">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-06 02:54:49 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8FD49008-C2AC-AEB6-FDAF-307BD085DDF6" name="EC_Catalogo_Objeto PK">
+<identifier id="34A1E688-1BEC-4445-61C6-7EC742BEBA99" name="Divisa PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 21:38:35 UTC</createdTime>
+<createdTime>2021-07-14 07:05:01 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B9E96EBB-55CC-808E-7D7A-AB93221E1A91</attributeRef>
-<attributeRef>67653B00-BC6C-1742-A258-2B84FCE45545</attributeRef>
-<attributeRef>31189FFA-DAB3-1701-C4A8-C4A2D4849406</attributeRef>
+<attributeRef>29D54194-0135-CA61-39D4-A4B5E08C8598</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

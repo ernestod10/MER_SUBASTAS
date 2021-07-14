@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44AECCAB-97F9-DCE5-ABC2-73E6576D91B8" name="EC_Organizador">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44AECCAB-97F9-DCE5-ABC2-73E6576D91B8" name="EC_Organizcion">
 <createdBy>Personal</createdBy>
 <createdTime>2021-05-27 02:59:19 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_organizador" id="189491E9-0116-2A9B-0D50-4BA9A6E85800">
+<Attribute name="ID_organiacion" id="189491E9-0116-2A9B-0D50-4BA9A6E85800">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 17:51:05 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -75,6 +75,68 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pag_web" id="756480CA-8B2F-8CA6-A6AF-393B89129429">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:38:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="FFCB155F-71A3-E02C-BCDA-BD48926C0C65">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:39:15 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="51E13C8F-C53E-DF9A-C28C-9B3F95BD05FD">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:38:38 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alcance" id="8FD1D029-881D-A1B6-CC97-88F7355DF285">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:38:44 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="6C602765-AB17-C4A1-C900-160D932EEE3C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:38:57 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

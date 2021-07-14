@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A472970-D9DD-FFF9-DFB4-960CF489E720" name="EC_Obra">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A472970-D9DD-FFF9-DFB4-960CF489E720" name="EC_Catalogo_Obra">
 <createdBy>Personal</createdBy>
 <createdTime>2021-05-27 04:03:15 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -11,26 +11,25 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>044B47D7-307F-578B-778D-6127C20EA1C7</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Nombre" id="8F462A76-F009-F061-B76D-8538BB935B96">
+<Attribute name="NUR" id="59A7BEE3-FFDA-BF22-43B0-CD40DD0EBC54">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:12:49 UTC</createdTime>
+<createdTime>2021-07-14 05:51:30 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Artista" id="C5395F9F-3E44-5038-3093-6596DE96115E">
+<Attribute name="Nombre" id="8F462A76-F009-F061-B76D-8538BB935B96">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:13:12 UTC</createdTime>
+<createdTime>2021-06-05 20:12:49 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
@@ -64,7 +63,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Alto" id="4B4A5ABB-54ED-5DCE-7308-263E080A8BEF">
+<Attribute name="Dimensiones" id="4B4A5ABB-54ED-5DCE-7308-263E080A8BEF">
 <createdBy>Personal</createdBy>
 <createdTime>2021-06-05 20:13:54 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
@@ -76,17 +75,47 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ancho" id="748186C9-7F87-A92D-2B51-EB7BC60C8CC3">
+<Attribute name="ID_coleccionista" id="E20A2B4B-A9D1-FED7-D0CB-B9EF2BF96636">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-05 20:14:05 UTC</createdTime>
+<createdTime>2021-07-14 07:06:14 UTC</createdTime>
+<generatorID>26671067-7B97-7107-9529-C50BC452E61B</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
 </engineerTo>
+<referedAttribute>2481A6F1-B0DA-081C-601C-346F6AE12322</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_organiacion" id="39C545CA-814F-965C-1322-2ADBEFDB7D91">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 07:06:28 UTC</createdTime>
+<generatorID>96CE5A29-DD81-A7CC-CB75-B7988E108D2E</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<referedAttribute>189491E9-0116-2A9B-0D50-4BA9A6E85800</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63BE4ADC-C7BF-C141-BAC4-74412B6E4F1B" name="EC_Catalogo_Obra PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-07-14 05:51:38 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="FD46C16E-E28E-3EDA-F594-0E9A7DE4C5A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59A7BEE3-FFDA-BF22-43B0-CD40DD0EBC54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
